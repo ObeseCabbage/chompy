@@ -1,0 +1,25 @@
+{
+  "name": "sabot",
+  "version": "0.0.1",
+  "description": "A bot used to obtain statistics about the interactions on a Discord server",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint './src/**/*.js' './test/**/*.js'",
+    "test": "mocha --recursive",
+    "test:watch": "mocha --recursive --watch"
+  },
+  "author": "ianfdk",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^10.0.1",
+    "mongoose": "^4.6.5",
+    "stopwords": "huned/node-stopwords"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.9.1",
+    "eslint-plugin-jasmine": "^2.1.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6"
+  }
+}
